@@ -1,0 +1,67 @@
+{
+  "name": "@gez/value-objects",
+  "version": "1.0.0",
+  "description": "A collection of value objects",
+  "keywords": [
+    "typescript",
+    "value-objects",
+    "domain-driven-design",
+    "ddd",
+    "hexagonal-architecture",
+    "clean-architecture",
+    "ts",
+    "domain-modeling",
+    "software-design",
+    "architecture-patterns",
+    "types",
+    "utility",
+    "util",
+    "utilities"
+  ],
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "lint": "eslint \"{src,test}/**/*.ts\" --fix",
+    "test": "jest",
+    "test:cov": "jest --coverage"
+  },
+  "author": "Minino",
+  "license": "GPL-3.0",
+  "devDependencies": {
+    "@types/jest": "^29.5.12",
+    "@types/uuid": "^9.0.8",
+    "jest": "^29.7.0",
+    "@typescript-eslint/eslint-plugin": "^6.0.0",
+    "@typescript-eslint/parser": "^6.0.0",
+    "eslint": "^8.42.0",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-prettier": "^5.0.0",
+    "prettier": "3.3.1",
+    "ts-jest": "^29.1.4"
+  },
+  "dependencies": {
+    "uuid": "^9.0.1"
+  },
+  "jest": {
+    "rootDir": ".",
+    "preset": "ts-jest",
+    "testEnvironment": "node",
+    "testRegex": ".*\\.test\\.ts$",
+    "transform": {
+      "^.+\\.ts$": "ts-jest"
+    },
+    "collectCoverageFrom": [
+      "**/src/**/*.ts",
+      "!**/node_modules/**",
+      "!**/test/**",
+      "!**/dist/**"
+    ],
+    "coverageDirectory": "./coverage",
+    "moduleFileExtensions": [
+      "ts",
+      "js",
+      "json"
+    ]
+  }
+}
