@@ -28,15 +28,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/MininoxD/gez-value-objects"
+    "url": "git+https://github.com/MininoxD/gez-value-objects.git"
   },
   "bugs": {
     "url": "https://github.com/MininoxD/gez-value-objects/issues"
   },
   "homepage": "https://github.com/MininoxD/gez-value-objects#readme",
-  "publishConfig": {
-    "access": "public"
-  },
   "author": "Minino",
   "license": "GPL-3.0",
   "devDependencies": {
