@@ -1,4 +1,4 @@
-# @gez/value-objects
+# @geztify/value-objects
 
 ## Description
 
@@ -59,7 +59,7 @@ This example demonstrates how value objects can be used to build rich and expres
 ## Installation
 
 ```bash
-npm install @gez/value-objects
+npm install @geztify/value-objects
 ```
 
 ## Contribution
